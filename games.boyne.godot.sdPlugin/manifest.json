@@ -1,0 +1,74 @@
+{
+  "SDKVersion": 2,
+  "Author": "Boyne Games",
+  "CodePath": "bin/main-darwin",
+  "CodePathMac": "bin/main-darwin",
+  "CodePathWin": "bin/main-windows.exe",
+  "Description": "Various utilities for the Godot Engine",
+  "Name": "Godot Utilities",
+  "Icon": "assets/godot-icon",
+  "URL": "https://godotengine.org/",
+  "Version": "1.0.0",
+  "Category": "Godot",
+  "CategoryIcon": "assets/godot-icon",
+  "Software": {
+    "MinimumVersion": "5.0"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Actions": [
+    {
+      "Icon": "assets/signal-icon",
+      "Name": "Emit Signal",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "assets/signal-icon"
+        }
+      ],
+      "Tooltip": "Emits a signal",
+      "UUID": "games.boyne.godot.emitsignal",
+      "PropertyInspectorPath": "html/games.boyne.godot.emitsignal.html"
+    },
+    {
+      "Icon": "assets/scene-icon",
+      "Name": "Switch Scene",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "assets/scene-icon"
+        }
+      ],
+      "Tooltip": "Switches to a specified scene",
+      "UUID": "games.boyne.godot.switchscene",
+      "PropertyInspectorPath": "html/games.boyne.godot.switchscene.html"
+    },
+    {
+      "Icon": "assets/reload-scene-icon",
+      "Name": "Reload Scene",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "assets/reload-scene-icon"
+        }
+      ],
+      "Tooltip": "Reloads the current scene",
+      "UUID": "games.boyne.godot.reloadscene",
+      "PropertyInspectorPath": "html/games.boyne.godot.reloadscene.html"
+    }
+  ]
+}
