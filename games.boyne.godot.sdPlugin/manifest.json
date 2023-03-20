@@ -7,7 +7,7 @@
   "Description": "Various utilities for the Godot Engine",
   "Name": "Godot Utilities",
   "Icon": "assets/godot-icon",
-  "URL": "https://godotengine.org/",
+  "URL": "https://github.com/BoyneGames/streamdeck-godot-plugin",
   "Version": "1.0.0",
   "Category": "Godot",
   "CategoryIcon": "assets/godot-icon",
